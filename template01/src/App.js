@@ -1,10 +1,18 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import HomeLayout from './Layouts';
+
+import Routes from './router';
 
 const App = () => {
   return (
-    <div>
-      <p>In app section</p>
-    </div>
+    <BrowserRouter>
+      {/* <ToastContainer /> */}
+        <HomeLayout>
+            <Routes />
+        </HomeLayout>
+    </BrowserRouter>
   )
 }
 

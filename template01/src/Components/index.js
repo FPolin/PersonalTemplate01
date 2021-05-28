@@ -1,7 +1,9 @@
-import React from 'react';
+import RedButton from './Buttons/RedButton';
+import TopHero from './Hero/TopHeroSection';
 
-const Components = () => {
-    
+// export all components
+
+export {
+    RedButton,
+    TopHero,
 }
-
-export default Components;
